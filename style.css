@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+#hilight{
+
+    color: #FFA500;
+}
+.width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.width img{
+    width: 100%;
+    margin-top: 29px;
+}
+#imgbackground{
+
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.width a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 28px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,red,blue);
+    margin-top: 24px;
+    /* display: inline-block; */
+}
+
+a {}
+#dreem-area{
+
+    background-image: url("images/dream-bg.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    
+}
+.orange{
+
+    color:#FFA500 ;
+}
+.width h1 {
+    font-size: 39px;
+}
+.width.single-box {
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 344px;
+  
+}
+#experiences{
+
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+}
+#full-struck{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#hat-struck{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(71, 42, 230),rgb(72, 203, 221));
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    color: #595959;
+}
+div#full-struck p {
+    text-align: justify;
+    margin-right: 30px;
+}
+
+div#hat-struck p {
+    text-align: justify;
+    margin-right: 28px;
+}
+
+section#experiences h2 {
+    font-size: 37px;
+    text-transform: uppercase;
+    text-align: center;
+    background: green;
+    width: 259px;
+    margin: auto;
+    margin-bottom: 36px;
+    border-radius: 10px;
+    color: white;
+}
